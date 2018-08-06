@@ -1,4 +1,4 @@
-<!--template>
+<template>
 	
 	<div id="intro" class="intro__back" :style="{ backgroundImage: 'url(' + url + 'assets/www/images/intro_bg.jpg' + ')' }">
 	  <div class="intro-body">
@@ -60,9 +60,9 @@
         } //Close Mounted
 
     }
-</script-->
+</script>
 
-<template>
+<!--template>
 
     <div class="padre">
         <div class="area_derecha" v-on:click="setHome(1)"></div>
@@ -126,4 +126,4 @@
         } //Close Mounted
 
     }
-</script>
+</script-->
