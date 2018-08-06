@@ -1,0 +1,168 @@
+.about-section{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include media-breakpoint-up(lg)
+  	{
+    	flex-direction: row;
+    	align-items: stretch;
+    	justify-content: space-around;
+    }
+    
+  	@include media-breakpoint-up(xl)
+  	{
+    	//margin: 0 20px;
+  	}
+}
+
+.about-first{
+	width: 100%;
+
+	@include media-breakpoint-up(lg)
+  	{
+		width: 50%
+	}
+
+	@include media-breakpoint-up(xl)
+  	{
+		width: 30%
+	}
+}
+
+.about-second{
+	width: 100%;
+
+	@include media-breakpoint-up(lg){
+
+    	width: 45%;
+    	align-items: baseline;
+    	justify-content: space-around;	
+    }
+
+    @include media-breakpoint-up(xl){
+
+    	width: 70%;
+    	flex-direction: row;
+    }
+}
+
+.about-second-first-row{
+
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    @include media-breakpoint-up(lg){
+
+    	align-items: baseline;
+    	justify-content: space-around;	
+    }
+
+    @include media-breakpoint-up(xl){
+
+    	flex-direction: row;
+    }
+
+
+    div{
+
+		@include media-breakpoint-up(xl)
+		{
+			width: 45%;
+		}
+
+		&.about-first-text{
+			margin-top: 20px;
+
+			@include media-breakpoint-up(lg)
+			{
+				margin-top: 0;
+			}
+		}
+
+		&.about-second-text{
+			margin-top: -10px;
+
+			@include media-breakpoint-up(lg)
+			{
+				margin-top: -20px;
+			}
+
+			@include media-breakpoint-up(xl)
+			{
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+.about-second-second-row{
+	text-align: center;
+}
+
+.about-img{
+	width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 400px;
+
+    @include media-breakpoint-up(lg){
+    	height: 100%;	
+    }
+}
+
+.about-text{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+
+	@include media-breakpoint-up(lg)
+  	{
+  		flex-direction: row;
+  	}
+
+	div{
+		margin: 0 20px;
+
+		@include media-breakpoint-up(xl)
+		{
+			margin: 0 30px;
+		}
+
+		&.about-first-text{
+			margin-top: 20px;
+
+			@include media-breakpoint-up(lg)
+			{
+				margin-top: 0;
+			}
+		}
+
+		&.about-second-text{
+			margin-top: -10px;
+
+			@include media-breakpoint-up(lg)
+			{
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+#about{
+
+	p{
+		margin: 15px 0;
+
+		@include media-breakpoint-up(lg)
+		{
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+	}
+}

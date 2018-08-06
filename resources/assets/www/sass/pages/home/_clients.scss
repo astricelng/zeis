@@ -1,0 +1,64 @@
+.container-clients{
+	display: flex;
+    flex-direction: column;
+    padding: 0;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.clients_list{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+    margin: 0 auto;
+
+	@include media-breakpoint-up(md)
+  	{
+  		width: 90%;
+  	}
+
+    @include media-breakpoint-up(lg)
+  	{
+  		width: 70%;
+  	}
+}
+
+.first_row{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10%;
+	align-items: center;
+
+	@include media-breakpoint-up(md)
+  	{
+		flex-direction: row;
+		align-items: stretch;
+	}
+}
+
+.left_column{
+	width: 50%;
+}
+
+.right_column{
+	width: 50%;
+
+	.artist_columns{
+		display: flex;
+		justify-content: center;
+
+		ul{
+			width: 40%;
+		}
+	}
+}
+
+.second_row{
+
+	padding: 0 5%;
+
+	b{
+		color: $red;
+	}
+}
+

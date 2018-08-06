@@ -1,0 +1,53 @@
+.header-list{
+	width: 100%;
+	text-align: right;
+
+	a{
+		margin-bottom: 50px;
+	}
+}
+
+.content-row{
+	display: flex;
+	flex-direction: row;
+	font-size: 1.5em;
+}
+
+.content-row-btn{
+	display: flex;
+	flex-direction: row;
+}
+
+.list-row{
+	justify-content: space-between;
+	align-items: center;
+
+	.list-text{
+		display: flex;
+		flex-direction: column;
+
+		.city{
+			color: #666;
+			font-size: 0.8em;
+		}
+	}
+
+	
+}
+
+.list-buttons{
+	a{
+		margin: 0 20px;
+	}
+}
+
+.medium-form-control{
+	width: 40% !important;
+	display: inline-block !important;
+}
+
+.container{
+	.pagination{
+		justify-content: center;
+	}
+}
