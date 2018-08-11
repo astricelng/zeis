@@ -4,7 +4,7 @@
         <div class="area_derecha" v-on:click="setHome(1)"></div>
         <div class="area_izquierda" v-on:click="setHome(2)"></div>
         <div class="derecha">
-            <div :style="{ backgroundImage: 'url(' + url + 'assets/www/images/derecha_home_comp.jpg' + ')' }"></div>
+            <div :style="{ backgroundImage: 'url(' + url + 'assets/www/images/derecha_home_comp.jpg' + ')' }" ></div>
         </div>
         <div class="izquierda">
             <div :style="{ backgroundImage: 'url(' + url + 'assets/www/images/izquierda_home_comp.jpg' + ')' }"></div>
@@ -30,6 +30,11 @@
             setHome(home) {
 
                 this.setAreaHome(home);
+
+                if(home == 1)
+                    this.$emit('showhome','right');
+                else
+                    this.$emit('showhome','left');
             },
 
             setAreaHome(home) {
