@@ -49,6 +49,31 @@
 		      				<img :src="url + 'assets/www/images/portfolio/8.jpg'">
 		      			</a>
 		      		</li>
+		      		<li>
+		      			<a :href="url + 'assets/www/images/portfolio/9.jpg'">
+		      				<img :src="url + 'assets/www/images/portfolio/8.jpg'">
+		      			</a>
+		      		</li>
+		      		<li>
+		      			<a :href="url + 'assets/www/images/portfolio/10.jpg'">
+		      				<img :src="url + 'assets/www/images/portfolio/10.jpg'">
+		      			</a>
+		      		</li>
+		      		<li>
+		      			<a :href="url + 'assets/www/images/portfolio/11.jpg'">
+		      				<img :src="url + 'assets/www/images/portfolio/11.jpg'">
+		      			</a>
+		      		</li>
+		      		<li>
+		      			<a :href="url + 'assets/www/images/portfolio/12.jpg'">
+		      				<img :src="url + 'assets/www/images/portfolio/12.jpg'">
+		      			</a>
+		      		</li>
+		      		<li>
+		      			<a :href="url + 'assets/www/images/portfolio/13.jpg'">
+		      				<img :src="url + 'assets/www/images/portfolio/13.jpg'">
+		      			</a>
+		      		</li>
 		      	</ul>
 	      	</div>
 	    </div>

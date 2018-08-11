@@ -10813,6 +10813,10 @@ hr {
 
 /* Home Section */
 
+.page-container {
+  overflow-x: hidden;
+}
+
 #intro {
   display: table;
   width: 100%;
@@ -11141,7 +11145,7 @@ ol.type li a:hover {
 /* banners Section */
 
 #banners {
-  background: #d95750;
+  background: #ffffff;
 }
 
 /* marcas Section */
@@ -11149,6 +11153,7 @@ ol.type li a:hover {
 #marcas {
   padding: 140px 0;
   background: #ffffff;
+  overflow-x: hidden;
 }
 
 /* Team Section */
@@ -11611,12 +11616,24 @@ a:focus {
 }
 
 #banners {
-  height: 500px;
+  height: 200px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   #banners {
-    height: 700px;
+    height: 240px;
+  }
+}
+
+@media (min-width: 768px) {
+  #banners {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #banners {
+    height: 600px;
   }
 }
 
@@ -11630,13 +11647,34 @@ a:focus {
 
 .banners_elements img {
   width: auto !important;
-  min-height: 500px;
+  display: inline-block;
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
 }
 
-@media (min-width: 992px) {
-  .banners_elements img {
-    width: 100% !important;
-    min-height: 400px;
+.banners_elements .slick-track .slick-slide div {
+  position: relative;
+  height: 200px;
+}
+
+@media (min-width: 576px) {
+  .banners_elements .slick-track .slick-slide div {
+    height: 240px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banners_elements .slick-track .slick-slide div {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banners_elements .slick-track .slick-slide div {
+    height: 600px;
   }
 }
 

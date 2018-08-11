@@ -26,7 +26,7 @@ class CreateBannerRequest extends FormRequest
         return [
         
             'name' => 'required',
-            'banner' => 'required|mimes:jpeg,jpg,png,gif|max:1000|dimensions:width=1920,height=700'
+            'banner' => 'required|mimes:jpeg,jpg,png,gif|max:1000|dimensions:width=1920,height600'
         ];
     }
 
@@ -42,7 +42,7 @@ class CreateBannerRequest extends FormRequest
             'banner.required' => 'Debe subir un banner',
             'banner.mimes' => 'El banner debe ser de tipo .jpg, .png o .gif',
             'banner.max' => 'El banner no debe ser mayor a 1mb',
-            'banner.dimensions' => 'Las dimensiones del banner deben ser de 1920px de ancho y 700px de alto'
+            'banner.dimensions' => 'Las dimensiones del banner deben ser de 1920px de ancho y 600px de alto'
         ];
     }
 }

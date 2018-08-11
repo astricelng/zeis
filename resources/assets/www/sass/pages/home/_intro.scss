@@ -181,6 +181,9 @@ hr {
 }
 
 /* Home Section */
+.page-container{
+	overflow-x: hidden;
+}
 #intro {
 	display: table;
 	width: 100%;
@@ -460,7 +463,8 @@ ol.type li a:hover {
 
 /* banners Section */
 #banners {
-	background: $red;
+
+	background: $white;
 }
 
 
@@ -469,6 +473,7 @@ ol.type li a:hover {
 	padding: 140px 0;
 	//background: #e6e6e6;
 	background: #ffffff;
+	overflow-x: hidden;
 }
 
 /* Team Section */
