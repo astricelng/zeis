@@ -26,7 +26,7 @@
 
 	@include media-breakpoint-up(xl)
   	{
-		width: 30%
+		width: 35%
 	}
 }
 
@@ -42,7 +42,7 @@
 
     @include media-breakpoint-up(xl){
 
-    	width: 70%;
+    	width: 65%;
     	flex-direction: row;
     }
 }
@@ -109,9 +109,10 @@
     background-position: 50%;
     background-size: cover;
     overflow: hidden;
-    min-height: 400px;
+    min-height: 450px;
 
     @include media-breakpoint-up(lg){
+    	min-height: 400px;
     	height: 100%;	
     }
 }

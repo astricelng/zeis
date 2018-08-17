@@ -1,5 +1,5 @@
 <template>
-    <div id="clients" class="text-center" :style="{backgroundImage: 'url(' + url + 'assets/www/images/client_bg.jpg' + ')' }">
+    <div id="clients" class="text-center" :style="{backgroundImage: 'url(' + url + 'assets/www/images/client_bg2.jpg' + ')' }">
       <div class="container container-clients">
         <div class="section-title center">
           <h2><span>{{ trans('home.clients.title') }}</span></h2>

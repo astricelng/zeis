@@ -7,7 +7,7 @@
             </div>
             <div class="about-section">
                 <div class="about-first">
-                    <div class="about-img" :style="{backgroundImage: `url('/assets/www/images/about_us.png')`}"></div>
+                    <div class="about-img" :style="{backgroundImage: `url('/assets/www/images/about_us2.png')`}"></div>
                 </div>
                 <div class="about-second">
                     <div class="about-second-first-row">

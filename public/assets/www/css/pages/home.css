@@ -11442,7 +11442,7 @@ a:focus {
 
 @media (min-width: 1200px) {
   .about-first {
-    width: 30%;
+    width: 35%;
   }
 }
 
@@ -11463,7 +11463,7 @@ a:focus {
 
 @media (min-width: 1200px) {
   .about-second {
-    width: 70%;
+    width: 65%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -11545,11 +11545,12 @@ a:focus {
   background-position: 50%;
   background-size: cover;
   overflow: hidden;
-  min-height: 400px;
+  min-height: 450px;
 }
 
 @media (min-width: 992px) {
   .about-img {
+    min-height: 400px;
     height: 100%;
   }
 }
