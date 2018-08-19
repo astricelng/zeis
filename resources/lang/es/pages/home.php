@@ -92,30 +92,30 @@ return [
     ],
 
     'contact' => [
-        'title' => '+ Contáctanos +',
+        'title' => '+ Contact Us +',
         'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.',
-        'text_form' => 'Déjanos un mensaje',
+        'text_form' => 'Leave us a message',
         'info' => [
             'mexico' => [
                 'cdmx' => [
                     'address' => 'Aquiles Serdán 113 Col. Ángel Zimbrón <br>Del. Azcapotzalco C.P. 02099 CDMX México',
-                    'phone' => '+52 55 22 10 06 46<br>+52 55 27 67 11',
-                    'email' => 'contacto@zeisproducciones.com<br>zeisproducciones@gmail.com',
+                    'phone' => '<a href="tel:+525522100646" target="_blank">+52 55 22 10 06 46</a><br><a href="tel:+5255276711" target="_blank">+52 55 27 67 11</a>',
+                    'email' => '<a href="mailto:contacto@zeisproducciones.com">contacto@zeisproducciones.com</a><br><a href="mailto:zeisproducciones@gmail.com">zeisproducciones@gmail.com</a>',
                 ],
                 'cancun' => [
                     'address' => 'Calle Grocella nº 38, Zona Urbana,<br> Cancun, C.P. 77509',
-                    'phone' => '+52 155 21 45 03 51',
-                    'email' => 'cancun@zeisproducciones.com',
+                    'phone' => '<a href="tel:+5215521450351" target="_blank">+52 155 21 45 03 51</a>',
+                    'email' => '<a href="mailto:cancun@zeisproducciones.com">cancun@zeisproducciones.com</a>',
                 ]
             ],
             'usa' => [
                 'texas' => [
                     'address' => '14410 investment ave., <br>Laredo TX 78045',
-                    'phone' => '<b>Gabriel Peña:</b><br>(956) 898-3101<br>(956)898-3102',
-                    'email' => 'contacto@zeisproducciones.com',
+                    'phone' => '<b>Gabriel Peña:</b><br><a href="tel:9568983101" target="_blank">(956) 898-3101</a><br><a href="tel:9568983102" target="_blank">(956)898-3102</a>',
+                    'email' => '<a href="mailto:contacto@zeisproducciones.com">contacto@zeisproducciones.com<a/>',
                 ]
             ]
-        ],        
+        ],      
         'name_form' => 'Nombre',
         'email_form' => 'Correo electrónico',
         'message_form' => 'Mensaje',

@@ -37,7 +37,7 @@
 
           <div class="second_row">
             <h3>{{ trans('home.clients.title_artist') }}</h3>
-            <b>Zoe</b> - Panteón Rococo - La Maldita Vecindad- <b>Iggy Pop</b> - Moderatto  - Gloria Trevi - Lila Downs - Caifanes - Rock en tu Idioma - <b>Pixies</b> - Steve Aoki - The Libertines - The Horrors - <b>David Gheta</b> - Paul Van Dyk - Fobia - Reik - Camila - <b>The Doors</b> - Aleks Syntek - Alejandra Guzmán - Liza Minnelli - Armin Van Buuren - <b>Alan Parsons</b> - Fito Paez - Paul Okenfold - <b>Fabulosos Cadillacs</b> - La Oreja de Van Gogh - Rafael - <b>Calle 13</b> - Icon - Jarabe de Palo - Gojira - <b>Mastodon</b> - OMD - Residente - CNCO - Il Divo - <b>Carlos Vives</b> - Kansas - Dua Lipa - <b>Molotov</b>
+            <b>Zoe</b> - Panteón Rococo - <b>Iggy Pop</b> - Moderatto  - Gloria Trevi - Lila Downs - Caifanes - Rock en tu Idioma - <b>Pixies</b> - Steve Aoki - The Libertines - The Horrors - <b>David Gheta</b> - Paul Van Dyk - Fobia - Reik - Camila - <b>The Doors</b> - Aleks Syntek - Alejandra Guzmán - Liza Minnelli - Armin Van Buuren - <b>Alan Parsons</b> - Fito Paez - Paul Okenfold - <b>Fabulosos Cadillacs</b> - La Oreja de Van Gogh - Rafael - <b>Calle 13</b> - Icon - Jarabe de Palo - Gojira - <b>Mastodon</b> - OMD - Residente - CNCO - Il Divo - <b>Carlos Vives</b> - Kansas - Dua Lipa - <b>Molotov</b>
           </div>
 
         </div>

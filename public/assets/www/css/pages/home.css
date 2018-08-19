@@ -11243,6 +11243,10 @@ img.img-thumbnail.team-img {
   border-radius: 4px;
 }
 
+#contact .contact-item a {
+  color: inherit;
+}
+
 #contact h3 {
   font-size: 20px;
   font-weight: 400;
