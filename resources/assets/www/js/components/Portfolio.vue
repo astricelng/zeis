@@ -51,7 +51,7 @@
 		      		</li>
 		      		<li>
 		      			<a :href="url + 'assets/www/images/portfolio/9.jpg'">
-		      				<img :src="url + 'assets/www/images/portfolio/8.jpg'">
+		      				<img :src="url + 'assets/www/images/portfolio/9.jpg'">
 		      			</a>
 		      		</li>
 		      		<li>
