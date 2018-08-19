@@ -29,6 +29,7 @@ class ContactController extends Controller
         $correo = \Mail::send('www.mails.contact', $data, function($message) use ($subject)
         {
             $message->to('contacto@zeisproducciones.com', 'Zeis Producciones')->subject($subject);
+            $message->from('contacto@zeisproducciones.com','Zeis Producciones');
         });
 
         //Mensaje de confirmacón que se envia al usuario
@@ -36,6 +37,7 @@ class ContactController extends Controller
         \Mail::send('www.mails.respond-to-user', $data, function($message) use ($subject, $data)
         {
             $message->to($data['email'], $data['name'])->subject($subject);
+            $message->from('contacto@zeisproducciones.com','Zeis Producciones');
         });
 
 
