@@ -11236,6 +11236,11 @@ img.img-thumbnail.team-img {
   margin-bottom: 20px;
 }
 
+#contact .loading_icon {
+  display: none;
+  text-align: center;
+}
+
 #contact .contact-item {
   padding: 10px;
   margin: 10px;

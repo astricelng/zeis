@@ -91,8 +91,11 @@
             <span class="help is-danger" v-if="form.errors.has('message')" v-text="form.errors.get('message')"></span>
           </div>
           <div id="success"></div>
-          <button type="submit" class="btn btn-default">{{ trans('home.contact.btn_form') }}</button>
+          <button type="submit" class="btn btn-default btn_send">{{ trans('home.contact.btn_form') }}</button>
 
+          <div class="loading_icon">
+              <img :src="url + 'assets/www/images/loading.gif'" width="40px" height="40px">
+          </div>
 
           <div class="form-group">
             <div class="mensaje text bold" v-model="send_message" v-html="send_message"></div>
@@ -121,6 +124,7 @@
         data() {
             return {
 
+                url: window.i18n.endpoints.url,
                 csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
                 endpoint: window.i18n.endpoints.contact_store,
                 contentT1: new TimelineMax(),
@@ -139,12 +143,20 @@
            
             onSubmit() {
 
+                $('.loading_icon').show();
+                $('.btn_send').hide();
+
                 this.form.post(this.endpoint)
                     .then(response => {
                     
                         this.send_message = window.i18n.home.contact.mail_respond_message;
+                        $('.loading_icon').hide();
+                        $('.btn_send').show();
                     })
                     .catch(error => {
+
+                        $('.loading_icon').hide();
+                        $('.btn_send').show();
                         if (error.errors === undefined)
                             this.send_message = window.i18n.home.contact.mail_respond_error;
                     });
