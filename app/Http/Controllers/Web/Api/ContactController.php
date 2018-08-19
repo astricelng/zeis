@@ -28,7 +28,7 @@ class ContactController extends Controller
         $subject = 'CONTACTO';
         $correo = \Mail::send('www.mails.contact', $data, function($message) use ($subject)
         {
-            $message->to('info@zeisproducciones.com', 'Zeis Producciones')->subject($subject);
+            $message->to('contacto@zeisproducciones.com', 'Zeis Producciones')->subject($subject);
         });
 
         //Mensaje de confirmacón que se envia al usuario
