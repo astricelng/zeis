@@ -75,8 +75,8 @@ Route::
         
         Route::name('dashboard')->get('/', 'BannersController@index');
         Route::name('login')->get('login', 'Auth\LoginController@showLoginForm');
-        Route::name('register')->get('register', 'Auth\RegisterController@showRegisterForm');
-        Route::name('register.submit')->post('register', 'Auth\RegisterController@register');
+        /*Route::name('register')->get('register', 'Auth\RegisterController@showRegisterForm');
+        Route::name('register.submit')->post('register', 'Auth\RegisterController@register');*/
         Route::name('login.submit')->post('login', 'Auth\LoginController@login');
         Route::name('logout')->post('logout', 'Auth\LoginController@logout');
 

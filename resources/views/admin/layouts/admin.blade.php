@@ -51,9 +51,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('admin.login') }}">{{ __('Login') }}</a>
                                 </li>
-                                <li>
-                                    <a class="nav-link" href="{{ route('admin.register') }}">{{ __('Register') }}</a>
-                                </li>
                                 
                             @else
                                 <li class="nav-item dropdown">
