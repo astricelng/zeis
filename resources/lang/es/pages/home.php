@@ -92,9 +92,9 @@ return [
     ],
 
     'contact' => [
-        'title' => '+ Contact Us +',
+        'title' => '+ Contáctanos +',
         'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.',
-        'text_form' => 'Leave us a message',
+        'text_form' => 'Déjanos un mensaje',
         'info' => [
             'mexico' => [
                 'cdmx' => [
