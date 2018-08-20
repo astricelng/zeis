@@ -67,6 +67,12 @@
           justify-content: center;
 }
 
+.instrucciones {
+  background-color: white;
+  padding: 20px;
+  margin-top: 50px;
+}
+
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
