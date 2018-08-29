@@ -21,8 +21,11 @@ Vue.prototype.trans = string => _.get(window.i18n, string);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('topbar', require('./components/Topbar.vue'));
 Vue.component('home', require('./components/Home.vue'));
+
+
+//Producciones
+Vue.component('topbar', require('./components/Topbar.vue'));
 Vue.component('about', require('./components/About.vue'));
 Vue.component('services', require('./components/Services.vue'));
 Vue.component('portfolio', require('./components/Portfolio.vue'));
@@ -30,7 +33,33 @@ Vue.component('banners', require('./components/Banners.vue'));
 Vue.component('clients', require('./components/Clients.vue'));
 Vue.component('brands', require('./components/Brands.vue'));
 Vue.component('contact', require('./components/Contact.vue'));
+Vue.component('footbar', require('./components/Footer.vue'));
+
+
+//Integracion
+Vue.component('topbari', require('./components/integration/Topbar.vue'));
+Vue.component('abouti', require('./components/integration/About.vue'));
+Vue.component('servicesi', require('./components/integration/Services.vue'));
+Vue.component('portfolioi', require('./components/integration/Portfolio.vue'));
+Vue.component('clientsi', require('./components/integration/Clients.vue'));
+Vue.component('contacti', require('./components/integration/Contact.vue'));
+Vue.component('footbari', require('./components/integration/Footer.vue'));
+
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        showLeft: false,
+        show: false
+    },
+    methods: {
+        showSite: function(area){
+            
+            this.show = true;
+            if (area == 'left')
+                this.showLeft = true;
+            else
+                this.showLeft = false;
+        }
+    }
 });

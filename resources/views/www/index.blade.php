@@ -9,50 +9,71 @@
 <div id="preloader">
   <div id="status"> <img src="{{ asset('assets/www/images/preloader.gif')}}" height="64" width="64" alt=""> </div>
 </div>
-<!-- Navigation -->
-  <topbar es="{{ route('web.lang-switch', 'es') }}" en="{{ route('web.lang-switch', 'en') }}"></topbar>
+<!-- Navigation Left-->
+  <topbar es="{{ route('web.lang-switch', 'es') }}" en="{{ route('web.lang-switch', 'en') }}" v-if="show && showLeft"></topbar>
+
+<!-- Navigation Right-->
+  <topbari es="{{ route('web.lang-switch', 'es') }}" en="{{ route('web.lang-switch', 'en') }}" v-if="show && !showLeft"></topbari>
 
 <!-- Header -->
-  <home></home>
+  <home @showhome="showSite"></home>
   
 <!-- About Section -->
 
-  <about></about>
+  <about v-if="show && showLeft"></about>
 
 <!-- Services Section -->
   
-  <services></services>
+  <services v-if="show && showLeft"></services>
 
 <!-- Portfolio Section -->
 
-  <portfolio></portfolio>
+  <portfolio v-if="show && showLeft"></portfolio>
 
 <!-- clients section -->
 
-  <clients></clients>
+  <clients v-if="show && showLeft"></clients>
 
 <!-- marcas section -->
 
-  <brands></brands>
+  <brands v-if="show && showLeft"></brands>
 
 
 <!-- banners section -->
 
-  <banners></banners>
+  <banners v-if="show && showLeft"></banners>
 
 <!-- contact section -->
 
-  <contact></contact>
+  <contact v-if="show && showLeft"></contact>
+
+<!-- Footbar Section -->
+  <footbar v-if="show && showLeft"></footbar>
 
 
+<!-- INTEGRACION -->
+<!-- About Section -->
+  
+  <abouti v-if="show && !showLeft"></abouti>
 
-<!-- Contact Section -->
-<div id="footer">
-  <div class="container">
-    <p>Copyright &copy; Zeis Producciones</p>
-  </div>
-</div>
+<!-- Services Section -->
+  
+  <servicesi v-if="show && !showLeft"></servicesi>
 
+<!-- Portfolio Section -->
+  
+  <portfolioi v-if="show && !showLeft"></portfolioi>
 
+<!-- clients section -->
+  
+  <clientsi v-if="show && !showLeft"></clientsi>
+
+<!-- contact section -->
+  
+  <contacti v-if="show && !showLeft"></contacti>
+
+<!-- Footbar Section -->
+  
+  <footbari v-if="show && !showLeft"></footbari>
 
 @endsection
