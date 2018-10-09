@@ -49,7 +49,7 @@
             this.$aboutImg          = $about.find('.about-img');
             this.$aboutText         = $about.find('.about-second');
 
-            let delayText = (windowW > 768) ? "=0" : "+=0.5";
+            let delayText = (windowW > 768) ? "-=0.2" : "+=0.5";
 
 
             this.$aboutTitle.html( this.$aboutTitle.html().replace(/./g, "<span>$&</span>").replace(/\s/g, "&nbsp;"));
@@ -59,17 +59,17 @@
                 0.5, 
                 {autoAlpha:0, rotationX:-90, top:"-30px"}, 
                 {autoAlpha:1, rotationX:0, top:"0px"}, 
-                0.1
+                0.07
             )
-            .fromTo(this.$aboutDecoration, 0.3,
+            .fromTo(this.$aboutDecoration, 0.2,
                 {width: 0, autoAlpha: 0},
                 {width: "70px", autoAlpha: 1, ease: Power0.easeInOut, delay: .1}
             )
-            .fromTo(this.$aboutImg, 0.3,
+            .fromTo(this.$aboutImg, 0.5,
                 {y: 20, scale: 1.2, autoAlpha: 0},
-                {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}, "-=0.1"
+                {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}
             )
-            .fromTo(this.$aboutText, 1,
+            .fromTo(this.$aboutText, 0.6,
                 {autoAlpha: "0"},
                 {autoAlpha: "1", ease: Circ.easeInOut}, delayText
             );

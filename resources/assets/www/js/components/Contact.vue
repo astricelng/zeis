@@ -183,15 +183,15 @@
               0.5, 
               {autoAlpha:0, rotationX:-90, top:"-30px"}, 
               {autoAlpha:1, rotationX:0, top:"0px"}, 
-              0.1
+              0.07
           )
-          .fromTo(this.$contactDecoration, 0.3,
+          .fromTo(this.$contactDecoration, 0.2,
               {width: 0, autoAlpha: 0},
               {width: "70px", autoAlpha: 1, ease: Power0.easeInOut, delay: .1}
           ) 
           .fromTo(this.$contactText1, 0.3,
               {autoAlpha: 0},
-              {autoAlpha: 1, ease: Circ.easeInOut}
+              {autoAlpha: 1, ease: Circ.easeInOut}, "=+0.1"
           )  
           .fromTo(this.$contactText2, 0.3,
               {autoAlpha: 0},
@@ -199,7 +199,7 @@
           )  
           .fromTo(this.$contactText3, 0.3,
               {autoAlpha: 0},
-              {autoAlpha: 1, ease: Circ.easeInOut}, "=+0.4"
+              {autoAlpha: 1, ease: Circ.easeInOut}, "=+0.3"
           )   
 
 

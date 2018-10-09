@@ -79,13 +79,13 @@
                 0.5, 
                 {autoAlpha:0, rotationX:-90, top:"-30px"}, 
                 {autoAlpha:1, rotationX:0, top:"0px"}, 
-                0.1
+                0.07
             )
-            .fromTo(this.$servicesDecoration, 0.3,
+            .fromTo(this.$servicesDecoration, 0.2,
                 {width: 0, autoAlpha: 0},
                 {width: "70px", autoAlpha: 1, ease: Power0.easeInOut, delay: .1}
             )
-            .fromTo(this.$serv1Img, 0.3,
+            .fromTo(this.$serv1Img, 0.4,
                 {y: 20, scale: 1.2, autoAlpha: 0},
                 {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}
             )
@@ -93,13 +93,13 @@
                 0.5, 
                 {autoAlpha:0, rotationX:-90, top:"-30px"}, 
                 {autoAlpha:1, rotationX:0, top:"0px"}, 
-                0.1
+                0.07, "-=0.2"
             )
-            .fromTo(this.$serv1Text, 1,
+            .fromTo(this.$serv1Text, 0.7,
                 {autoAlpha: "0"},
-                {autoAlpha: "1", ease: Circ.easeInOut}
+                {autoAlpha: "1", ease: Circ.easeInOut}, "-=0.3"
             )
-            .fromTo(this.$serv2Img, 0.3,
+            .fromTo(this.$serv2Img, 0.4,
                 {y: 20, scale: 1.2, autoAlpha: 0},
                 {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}
             )
@@ -107,13 +107,13 @@
                 0.5, 
                 {autoAlpha:0, rotationX:-90, top:"-30px"}, 
                 {autoAlpha:1, rotationX:0, top:"0px"}, 
-                0.1
+                0.07, "-=0.2"
             )
-            .fromTo(this.$serv2Text, 1,
+            .fromTo(this.$serv2Text, 0.7,
                 {autoAlpha: "0"},
-                {autoAlpha: "1", ease: Circ.easeInOut}
+                {autoAlpha: "1", ease: Circ.easeInOut}, "-=0.3"
             )
-            .fromTo(this.$serv3Img, 0.3,
+            .fromTo(this.$serv3Img, 0.4,
                 {y: 20, scale: 1.2, autoAlpha: 0},
                 {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}
             )
@@ -121,11 +121,11 @@
                 0.5, 
                 {autoAlpha:0, rotationX:-90, top:"-30px"}, 
                 {autoAlpha:1, rotationX:0, top:"0px"}, 
-                0.1
+                0.07, "-=0.2"
             )
-            .fromTo(this.$serv3Text, 1,
+            .fromTo(this.$serv3Text, 0.7,
                 {autoAlpha: "0"},
-                {autoAlpha: "1", ease: Circ.easeInOut}
+                {autoAlpha: "1", ease: Circ.easeInOut}, "-=0.3"
             );
 
 

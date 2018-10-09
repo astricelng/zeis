@@ -26,4 +26,5 @@
 
 @push('styles')
     <link href="{{ asset('/assets/www/css/pages/'.$page->style_file.'.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets/www/css/pages/integracion/'.$page->style_file.'.css') }}" rel="stylesheet">
 @endpush

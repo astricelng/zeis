@@ -79,23 +79,23 @@ import 'slick-carousel';
               0.5, 
               {autoAlpha:0, rotationX:-90, top:"-30px"}, 
               {autoAlpha:1, rotationX:0, top:"0px"}, 
-              0.1
+              0.07
           )
-          .fromTo(this.$clientsDecoration, 0.3,
+          .fromTo(this.$clientsDecoration, 0.2,
               {width: 0, autoAlpha: 0},
               {width: "70px", autoAlpha: 1, ease: Power0.easeInOut, delay: .1}
           )
           .fromTo(this.$clientsLeftList, 0.3,
               {y: 20, scale: 1.5, autoAlpha: 0},
-              {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}, "+=0.1"
+              {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}, "-=0.1"
           )
           .fromTo(this.$clientsRightList, 0.3,
               {y: 20, scale: 1.5, autoAlpha: 0},
-              {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}, "+=0.1"
+              {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}, "-=0.1"
           )
           .fromTo(this.$clientsDownList, 0.3,
               {y: 20, scale: 1.5, autoAlpha: 0},
-              {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}, "+=0.1"
+              {y: 0, scale: 1, autoAlpha: 1, ease:Power0.easeNone}, "-=0.1"
           )
 
 

@@ -100,7 +100,7 @@ return [
             'mexico' => [
                 'cdmx' => [
                     'address' => 'Aquiles Serdán 113 Col. Ángel Zimbrón <br>Del. Azcapotzalco C.P. 02099 CDMX México',
-                    'phone' => '<a href="tel:+525522100646" target="_blank">+52 55 22 10 06 46</a><br><a href="tel:+5255276711" target="_blank">+52 55 27 67 11</a>',
+                    'phone' => '<a href="tel:+525522100646" target="_blank">+52 55 22 10 06 46</a><br><a href="tel:+525555276711" target="_blank">+52 55 55 27 67 11</a>',
                     'email' => '<a href="mailto:contacto@zeisproducciones.com">contacto@zeisproducciones.com</a><br><a href="mailto:zeisproducciones@gmail.com">zeisproducciones@gmail.com</a>',
                 ],
                 'cancun' => [

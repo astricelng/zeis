@@ -11,47 +11,29 @@
 }
 
 .texto_intro{
-	width: 90%;
+    width: 95%;
+    height: 100%;
+    position: absolute;
     display: flex;
-    align-items: baseline;
-    justify-content: center;
-    margin-top: 5%;
-    order: 2;
-
-    @include media-breakpoint-up(sm)
-  	{
-  		width: 70%;
-  	}
-
-    @include media-breakpoint-up(lg)
-  	{
-  		order: 1;
-  		width: 40%;
-    	justify-content: flex-start;
-    }    
-
-    @include media-breakpoint-up(xl)
-  	{
-  		margin-left: 5%;	
-  	}
+    align-items: center;
+    margin: -8% 0 0 5%;
 
     img {
-    	width: 85%;
+    	width: 33%;
+    }
+}
 
-    	@include media-breakpoint-up(sm)
-	  	{
-	  		width: 70%;
-	  	}
+.texto_intro_inte{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    right: 5%;
 
-    	@include media-breakpoint-up(lg)
-  		{
-  			width: 100%;
-  		}
-
-    	@include media-breakpoint-up(xl)
-  		{
-    		width: 90%;
-    	}
+    img {
+      width: 28%;
     }
 }
 
@@ -120,6 +102,10 @@
     left: 50%;
   }
 }
+
+.nopointer{
+  cursor: default;
+}
 /*
 .padre .derecha {
     width: 52%;
@@ -142,7 +128,7 @@
     overflow:hidden;
     display: flex;
 
-    div{
+    div.background{
       width: 100%;
       background-repeat: no-repeat;
       background-position: 50%;

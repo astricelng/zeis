@@ -1,0 +1,117 @@
+#contact-inte {
+	padding: 120px 0 40px 0;
+	/*background-size: cover;
+	background-attachment: fixed;*/
+	background: $azul-integracion;
+
+	p{
+		color: $gris-integracion;
+	}
+
+	h2{
+		color: $blanco-integracion;
+	}
+
+	.clearfix{
+		margin-bottom: 20px;
+	}
+
+	.loading_icon{
+	  display: none;
+	  text-align: center;
+	}
+	//background: #f6f6f6;
+}
+
+#contact-inte .contact-item {
+	padding: 10px;
+	margin: 10px;
+	height: 100px;
+	border-radius: 4px;
+
+	a{
+		color: inherit;
+	}
+}
+#contact-inte h3 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 40px;
+	color: $blanco-integracion;
+}
+#contact-inte form {
+	padding: 30px 0;
+
+	.help{
+		color: $gris-integracion;
+	}
+
+	.mensaje{
+		color: $gris-integracion;
+		margin-top: 5px;
+	}
+}
+#contact-inte i.fa {
+	font-size: 22px;
+	color: $fucsia-integracion;
+	margin-bottom: 10px;
+}
+#contact-inte .text-danger {
+	color: #ff3333;
+	text-align: left;
+}
+
+#contact-inte .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+	margin-bottom: 5px;
+}
+#contact-inte .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+#contact-inte .btn-default {
+	background: $fucsia-integracion;
+	border: 0;
+	border-radius: 4px;
+	padding: 10px 20px;
+	color: $blanco-integracion;
+	margin-top: 15px;
+	font-size: 15px;
+}
+#contact-inte .btn-default:hover, #contact-inte .btn-default:focus {
+	color: $blanco-integracion;
+	background: $morado-integracion;
+}
+
+#contact-inte .social ul {
+	margin-top: 30px;
+}
+#contact-inte .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact-inte .social i.fa {
+	font-size: 24px;
+	padding-top: 8px;
+	color: $fucsia-integracion;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+#contact-inte .social i.fa:hover {
+	color: $morado-integracion;
+}

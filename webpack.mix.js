@@ -60,6 +60,7 @@ if (compilation)
         .js(resourcesPath + 'js/SmoothScroll.js', 'js/SmoothScroll.js')
         .js(resourcesPath + 'js/main.js', 'js/main.js')
         .sass(resourcesPath + 'sass/pages/home/index.scss', 'css/pages/home.css')
+        .sass(resourcesPath + 'sass/pages/integracion/home/index.scss', 'css/pages/integracion/home.css')
         .sourceMaps()
     ;
 }

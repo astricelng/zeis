@@ -9,6 +9,8 @@
 
         <!-- PAGE META DATA -->
         <meta name="author" property="author" content="Zeis Producciones" />
+        <meta name="google-site-verification" content="6wy55gbZGWpDzs1KCxtFKrBJNDLrfcl3vWbYka5Nap4" />
+
 
         @stack('meta-data')
 

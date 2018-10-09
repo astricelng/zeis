@@ -116,9 +116,9 @@
                 0.5, 
                 {autoAlpha:0, rotationX:-90, top:"-30px"}, 
                 {autoAlpha:1, rotationX:0, top:"0px"}, 
-                0.1
+                0.07
             )
-            .fromTo(this.$worksDecoration, 0.3,
+            .fromTo(this.$worksDecoration, 0.2,
                 {width: 0, autoAlpha: 0},
                 {width: "70px", autoAlpha: 1, ease: Power0.easeInOut, delay: .1}
             )

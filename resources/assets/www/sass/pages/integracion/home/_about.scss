@@ -1,0 +1,174 @@
+#about-inte{
+
+	padding: 140px 0;
+	background: $azul-integracion;
+
+	p{
+		margin: 15px 0;
+		color: $gris-integracion;
+
+		@include media-breakpoint-up(lg)
+		{
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+	}
+}
+
+#about-inte .about-section{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include media-breakpoint-up(lg)
+  	{
+    	flex-direction: row;
+    	align-items: stretch;
+    	justify-content: space-around;
+    }
+    
+  	@include media-breakpoint-up(xl)
+  	{
+    	//margin: 0 20px;
+  	}
+}
+
+#about-inte .about-first{
+	width: 100%;
+
+	@include media-breakpoint-up(lg)
+  	{
+		width: 50%
+	}
+
+	@include media-breakpoint-up(xl)
+  	{
+		width: 35%
+	}
+}
+
+#about-inte .about-second{
+	width: 100%;
+	display: flex;
+
+	@include media-breakpoint-up(lg){
+
+    	width: 45%;
+    	align-items: center;
+    	justify-content: space-around;	
+    }
+
+    @include media-breakpoint-up(xl){
+
+    	width: 65%;
+    	flex-direction: row;
+    }
+}
+
+#about-inte .about-second-first-row{
+
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    @include media-breakpoint-up(lg){
+
+    	align-items: baseline;
+    	justify-content: space-around;	
+    }
+
+    @include media-breakpoint-up(xl){
+
+    	flex-direction: row;
+    }
+
+
+    div{
+
+		@include media-breakpoint-up(xl)
+		{
+			width: 45%;
+		}
+
+		&.about-first-text{
+			margin-top: 20px;
+
+			@include media-breakpoint-up(lg)
+			{
+				margin-top: 0;
+			}
+		}
+
+		&.about-second-text{
+			margin-top: -10px;
+
+			@include media-breakpoint-up(lg)
+			{
+				margin-top: -20px;
+			}
+
+			@include media-breakpoint-up(xl)
+			{
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+#about-inte .about-second-second-row{
+	text-align: center;
+}
+
+#about-inte .about-img{
+	width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 450px;
+
+    @include media-breakpoint-up(lg){
+    	min-height: 420px;
+    	height: 100%;	
+    }
+}
+
+#about-inte .about-text{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+
+	@include media-breakpoint-up(lg)
+  	{
+  		flex-direction: row;
+  	}
+
+	div{
+		margin: 0 20px;
+
+		@include media-breakpoint-up(xl)
+		{
+			margin: 0 30px;
+		}
+
+		&.about-first-text{
+			margin-top: 20px;
+
+			@include media-breakpoint-up(lg)
+			{
+				margin-top: 0;
+			}
+		}
+
+		&.about-second-text{
+			margin-top: -10px;
+
+			@include media-breakpoint-up(lg)
+			{
+				margin-top: 0;
+			}
+		}
+	}
+}
